@@ -12,7 +12,6 @@ export class HomePage extends Component {
             show: {
               opacity: 1,
               transition: {
-                  
                   staggerChildren: 2,
                   ease: "easeIn", 
                   duration: 2.5,
@@ -31,7 +30,6 @@ export class HomePage extends Component {
                 <motion.ul variants={container} initial="hidden" animate="show" >
                     <motion.li variants={item} style={{fontSize: "7vh", marginTop: "30vh", marginRight: "5vw"}}>Andrew Zajac</motion.li>
                     <motion.li variants={item} style={{fontSize: "2.5vh", marginTop: "5vh", marginRight: "5vw"}}>Software Engineer</motion.li>
-                    <motion.li variants={item}></motion.li>
                 </motion.ul>
                 <Footer></Footer>
             </div>

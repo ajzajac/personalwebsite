@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
@@ -37,6 +38,12 @@
   }
 }
 
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 .navBar {
   position: relative;
   overflow: hidden;
@@ -57,18 +64,9 @@ a:visited {
   color: darkgray;
 }
 
-a.contacts, a.contacts:hover, a.contacts:focus {
-  text-decoration: none;
-  text-shadow: 3px 3px 3px rgb(255, 255, 255);
-}
-
-a.contacts:hover, a.contacts:active, a.contacts:focus {
-  text-decoration: none;
-}
-
-a.glow, a.glow:hover, a.glow:focus {
+a.glow, a.glow:focus {
 	text-decoration: none;
-	color:whitesmoke;
+	color:white;
 	text-shadow: none;
 	-webkit-transition: 500ms linear 0s;
 	-moz-transition: 500ms linear 0s;
@@ -78,18 +76,14 @@ a.glow, a.glow:hover, a.glow:focus {
 }
 
 a.glow:hover, a.glow:active, a.glow:focus {
-	color: white;
-	text-shadow: 0px 0px 10px rgb(255, 255, 255);
+	text-shadow: 2px 2px 6px rgb(255, 255, 255);
 }
-
 
 ul {
   list-style-type: none;
   text-decoration: none;
-  text-align: center;
-  width: 100vw;
+  width: 100vw
 }
-
 
 h2 {
   color: whitesmoke;
@@ -103,9 +97,8 @@ h2 {
   font-family: 'Gudea', sans-serif;
   background: linear-gradient(to top right, rgb(26, 12, 51) 5%, rgb(3, 1, 12) 95%);
   color: whitesmoke;
-
+  overflow-y: scroll;
 }
-
 
 .aboutMe {
   position: relative;
@@ -117,9 +110,10 @@ h2 {
 
 .contactMePage {
   height: 100vh;
-  width: 100vw;
+  width: 100%;
   position: absolute;
   font-family: 'Gudea', sans-serif;
+  text-align: center;
   background: linear-gradient(to top right, rgb(26, 12, 51) 5%, rgb(3, 1, 12) 95%);
 }
 
@@ -132,14 +126,30 @@ h2 {
   font-family: 'Gudea', sans-serif;
 }
 
+.contactList {
+  width: 90vw;
+}
+
 .projectPage {
   text-align: center;
   font-family: 'Gudea', sans-serif;
   color: whitesmoke;
+  padding: 20px;
+  float: left;
   height: 100vh;
   width: 100vw;
-  position: absolute;
+  position: relative;
   background: linear-gradient(to top right, rgb(26, 12, 51) 5%, rgb(3, 1, 12) 95%);
+}
+
+.wrapper {
+  
+  height: 100%;
+}
+
+.projectList {
+  overflow-y: scroll;
+  height: 92%;
 }
 
 .footer {
@@ -150,6 +160,7 @@ h2 {
   bottom:0;
   right:0;
   border-top: solid;
+  clear: both;
   border-color: rgb(136,136,136);
   border-width: 1px;
 }

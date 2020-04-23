@@ -4,9 +4,9 @@ import './App.css';
 import HomePage, { homePage } from './components/HomePage'
 import NavBar from './components/NavBar'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import About from './components/About'
 import Projects from './components/Projects'
 import Contact from './components/Contact'
+import Footer from './components/Footer'
 
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
         <Router>
           <Switch>
             <Route exact path="/"><HomePage></HomePage></Route>
-            <Route exact path='/about'><About></About></Route>
+            <Route exact path='/about'><HomePage></HomePage></Route>
             <Route exact path='/projects'><Projects></Projects></Route>
             <Route exact path='/contact'><Contact></Contact></Route>
           </Switch>

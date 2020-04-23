@@ -1,18 +1,43 @@
 import React, { Component } from 'react'
 import '../App.css'
+import { motion } from "framer-motion"
+import About from './About'
+import Footer from './Footer'
 
-
-export class homePage extends Component {
+export class HomePage extends Component {
+    
     render() {
+        const container = {
+            hidden: { opacity: 0 },
+            show: {
+              opacity: 1,
+              transition: {
+                  
+                  staggerChildren: 2,
+                  ease: "easeIn", 
+                  duration: 2.5,
+                
+              }
+            }
+          }
+          
+          const item = {
+            hidden: { opacity: 0 },
+            show: { opacity: 1 }
+          }
+
         return (
             <div className="homeInfoCard">
-                <div className="home-page-info">
-                    <h2 style={{fontSize: "6vh"}}>Andrew Zajac</h2>
-                    <p style={{fontSize: "3vh"}}>Software Engineer</p>
-                </div>
+                <motion.ul variants={container} initial="hidden" animate="show" >
+                    <motion.li variants={item} style={{fontSize: "7vh", marginTop: "30vh", marginRight: "5vw"}}>Andrew Zajac</motion.li>
+                    <motion.li variants={item} style={{fontSize: "2.5vh", marginTop: "5vh", marginRight: "5vw"}}>Software Engineer</motion.li>
+                    <motion.li variants={item}></motion.li>
+                </motion.ul>
+                <Footer></Footer>
             </div>
+            
         )
     }
 }
 
-export default homePage
+export default HomePage

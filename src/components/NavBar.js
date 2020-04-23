@@ -6,10 +6,9 @@ export default function NavBar() {
         <div className="navBar">
             <div className="navBarLinks">
                <ul>
-                  <li style={{marginRight: "15px", marginBottom: "2vh"}}><a className="glow" href='/about'>about</a></li>
-                  <li style={{marginRight: "25px"}}><a className="glow" href='/projects'>projects</a></li>
-                  <li style={{marginRight: "25px"}}><a className="glow" href='/contact'>contact</a></li>
-                  <li style={{marginRight: "76vw", marginBottom: "1vh", fontWeight: "800"}}><a className="glow" href='/'>//</a></li>
+                    <li style={{marginRight: "5vw", display: "inLine"}}><a className="glow" href='/about'>about</a></li>
+                    <li style={{marginRight: "5vw",  marginBottom: "2vh", display: "inLine"}}><a className="glow" href='/projects'>projects</a></li>
+                    <li style={{marginRight: "5vw", display: "inLine"}}><a className="glow" href='/contact'>contact</a></li>
                </ul>
             </div>
         </div>

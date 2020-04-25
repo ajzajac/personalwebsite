@@ -41,12 +41,12 @@ export class Contact extends Component {
 
         return (
             <div className="contactMePage">
-                <h2 style={{marginRight: "2.5vw"}}>Contact Me</h2>
+                <h2>Contact Me</h2>
                     <div className="emailLink">
                         <motion.ul className="contactList" variants={container} initial="hidden" animate="show" >
-                            <motion.li variants={item} style={{marginRight: '69.5vw'}}><motion.img style={{cursor: 'pointer'}} whileHover={{ scale: 1.2}} whileTap={{ scale: .9}} src="linkedin.png" height="110px" width="110px" title='LinkedIn' onClick={this.getLinkedIn} /></motion.li>
-                            <motion.li variants={item} style={{marginRight: '69.5vw', marginTop: '2vh'}}><motion.img style={{cursor: 'pointer'}} whileHover={{ scale: 1.2}} whileTap={{ scale: .9}} src="githubLogo.jpg" height="135px" width="135px" title='GitHub' onClick={this.goToGithub}/></motion.li>
-                            <motion.li variants={item} style={{marginRight: '69.5vw', marginTop: '-1vh'}}><motion.img style={{cursor: 'pointer'}} whileHover={{ scale: 1.2}} whileTap={{ scale: .9}} src="email.png" height="150px" width="135px" title='Email' onClick={this.sendEmail} /></motion.li>
+                            <motion.li variants={item}><motion.img style={{cursor: 'pointer', marginLeft: "12px"}} whileHover={{ scale: 1.2}} whileTap={{ scale: .9}} src="linkedin.png" height="110px" width="110px" title='LinkedIn' onClick={this.getLinkedIn} /></motion.li>
+                            <motion.li variants={item} style={{}}><motion.img style={{cursor: 'pointer', marginRight: '10px'}} whileHover={{ scale: 1.2}} whileTap={{ scale: .9}} src="githubLogo.jpg" height="135px" width="135px" title='GitHub' onClick={this.goToGithub}/></motion.li>
+                            <motion.li variants={item} style={{marginTop: '-1vh'}}><motion.img style={{cursor: 'pointer'}} whileHover={{ scale: 1.2}} whileTap={{ scale: .9}} src="email.png" height="150px" width="135px" title='Email' onClick={this.sendEmail} /></motion.li>
                         </motion.ul>
                     </div> 
                 <Footer></Footer>

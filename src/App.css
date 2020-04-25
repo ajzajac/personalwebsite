@@ -51,10 +51,12 @@
   top: 0;
   font-family: 'Gudea', sans-serif;
   text-decoration: none;
+  text-align: center;
   border-bottom: solid;
   border-width: 1px;
   border-color: rgb(136, 136, 136);
 }
+
 
 a {
   color: darkgray;
@@ -82,7 +84,6 @@ a.glow:hover, a.glow:active, a.glow:focus {
 ul {
   list-style-type: none;
   text-decoration: none;
-  width: 100vw
 }
 
 h2 {
@@ -100,6 +101,10 @@ h2 {
   overflow-y: scroll;
 }
 
+.homePageList {
+  margin-bottom: 26%;
+}
+
 .aboutMe {
   position: relative;
   width: 100vw;
@@ -111,6 +116,7 @@ h2 {
 .contactMePage {
   height: 100vh;
   width: 100%;
+  margin: auto;
   position: absolute;
   font-family: 'Gudea', sans-serif;
   text-align: center;
@@ -118,16 +124,24 @@ h2 {
 }
 
 .emailLink {
-  height: 40vh;
-  width: 25vw;
-  margin-left: 37vw;
+  width: 20%;
+  margin: auto;
+  margin-bottom: 14.5%;
   font-size: 10vh;
   text-align: center;
   font-family: 'Gudea', sans-serif;
+  box-shadow: 3px 3px 4px black;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 15px;
+  background-color:rgba(0, 0, 0, .4);
 }
 
 .contactList {
-  width: 90vw;
+  width: 72%;
+  margin: auto;
+  padding-top: 30px;
+  padding-right: 70px;
 }
 
 .projectPage {
@@ -136,25 +150,35 @@ h2 {
   color: whitesmoke;
   padding-bottom: 55px;
   padding-top: 20px;
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
   position: relative;
+  overflow: auto;
   background: linear-gradient(to top right, rgb(26, 12, 51) 5%, rgb(3, 1, 12) 95%);
 }
 
 .wrapper {
-  
-  height: 100%;
+  background-color:rgba(0, 0, 0, .4);
+  width: 38%;
+  margin: auto;
+  box-shadow: 3px 3px 4px black;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 15px;
+  border-color: black;
+  overflow: auto;
 }
 
 .projectList {
-  overflow-y: scroll;
-  height: 92%;
+  overflow: auto;
+  padding-left: 95px;
 }
 
 .footer {
   color: whitesmoke;
-  position: absolute;
+  margin-top: 50px;
+  height: 9px;
+  text-align: center;
   font-family: 'Gudea', sans-serif;
   left:0;
   bottom:0;

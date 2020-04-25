@@ -91,14 +91,14 @@ h2 {
 }
 
 .homeInfoCard {
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
   position: absolute;
   text-align: center;
   font-family: 'Gudea', sans-serif;
   background: linear-gradient(to top right, rgb(26, 12, 51) 5%, rgb(3, 1, 12) 95%);
   color: whitesmoke;
-  overflow-y: scroll;
+  
 }
 
 .homePageList {

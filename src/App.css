@@ -84,10 +84,15 @@ a.glow:hover, a.glow:active, a.glow:focus {
 ul {
   list-style-type: none;
   text-decoration: none;
+  padding-inline-start: 0px
 }
 
 h2 {
   color: whitesmoke;
+}
+
+.container {
+  height: 100%
 }
 
 .homeInfoCard {
@@ -98,17 +103,18 @@ h2 {
   font-family: 'Gudea', sans-serif;
   background: linear-gradient(to top right, rgb(26, 12, 51) 5%, rgb(3, 1, 12) 95%);
   color: whitesmoke;
-  
 }
 
 .homePageList {
   margin-bottom: 26%;
+  
 }
 
 .aboutMe {
   position: relative;
   width: 100vw;
   height: 100vh;
+  margin: auto;
   background: linear-gradient(to top right, rgb(26, 12, 51) 5%, rgb(3, 1, 12) 95%);
   color: white;
 }
@@ -123,7 +129,7 @@ h2 {
 }
 
 .emailLink {
-  width: 20%;
+  width: 25%;
   margin: auto;
   margin-bottom: 14.5%;
   font-size: 10vh;
@@ -137,17 +143,17 @@ h2 {
 }
 
 .contactList {
-  width: 72%;
+  width: 100%;
   margin: auto;
-  padding-top: 30px;
-  padding-right: 70px;
+  padding-top: 4%;
+  padding-left: 0px;
+  
 }
 
 .projectPage {
   text-align: center;
   font-family: 'Gudea', sans-serif;
   color: whitesmoke;
-  padding-bottom: 55px;
   padding-top: 20px;
   height: 100%;
   width: 100%;
@@ -158,7 +164,7 @@ h2 {
 
 .wrapper {
   background-color:rgba(0, 0, 0, .5);
-  width: 38%;
+  width: 43%;
   margin: auto;
   box-shadow: 3px 3px 4px black;
   border-style: solid;
@@ -170,13 +176,13 @@ h2 {
 
 .projectList {
   overflow: auto;
-  padding-left: 95px;
+  margin: auto;
 }
 
 .footer {
   color: whitesmoke;
-  margin-top: 50px;
-  height: 9px;
+  height: 3%;
+  margin-top: 5%;
   text-align: center;
   font-family: 'Gudea', sans-serif;
   left:0;

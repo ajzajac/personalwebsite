@@ -109,15 +109,12 @@ h2 {
 
 .homePageList {
   margin-bottom: 28%;
-  
 }
 
 .aboutMe {
-  position: relative;
-  width: 100vw;
-  height: 90%;
-  margin: auto;
   background: rgb(30, 14, 58);
+  text-align: center;
+  font-family: 'Gudea', sans-serif;
   color: white;
 }
 

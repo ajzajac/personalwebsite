@@ -118,6 +118,13 @@ h2 {
   color: white;
 }
 
+.skillsPage {
+  background: rgb(30, 14, 58);
+  text-align: center;
+  font-family: 'Gudea', sans-serif;
+  color: white;
+}
+
 .contactMePage {
   height: 100vh;
   width: 100%;

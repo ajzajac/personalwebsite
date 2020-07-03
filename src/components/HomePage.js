@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import '../App.css'
 import { motion } from "framer-motion"
-import Footer from './Footer'
 
 export class HomePage extends Component {
     
@@ -25,12 +24,11 @@ export class HomePage extends Component {
           }
 
         return (
-                <div className="homeInfoCard">
+            <div className="homeInfoCard" id='about'>
                 <motion.ul className="homePageList" variants={container} initial="hidden" animate="show" >
                     <motion.li variants={item} style={{fontSize: "7vh", marginTop: "30vh",}}>Andrew Zajac</motion.li>
                     <motion.li variants={item} style={{fontSize: "2.5vh", marginTop: "5vh",}}>Software Engineer</motion.li>
                 </motion.ul>
-            <Footer></Footer>
             </div>
         )
     }

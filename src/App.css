@@ -92,8 +92,8 @@ h2 {
   color: whitesmoke;
   text-align: center;
   font-size: xx-large;
-  padding-top: 6%;
-  padding-bottom: 3%;
+  padding-top: 11%;
+  padding-bottom: 2%;
 }
 
 .container {
@@ -156,13 +156,23 @@ h2 {
   width: 60%;
   margin: auto;
   margin-bottom: -2%;
-  padding-bottom: 5%;
+  padding-bottom: 8%;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  
 }
 
-.contactMePage a:hover {
-  
+.contactMePage img {
+  fill: white;
+  color: white;
+  height: 95%;
+  width: 80%;
+  background-color: rgb(219, 219, 219);
+  border: solid;
+  border-radius: 70px;
+  border-width: 1px;
+  border-color: whitesmoke;
+  box-shadow: 2px 2px 80px rgb(233, 233, 233);
 }
 
 .projectPage {
@@ -188,6 +198,11 @@ h2 {
   border-radius: 15px;
   border-color: rgb(119, 118, 118, .4);
   overflow: auto;
+  transition: 0.5s ease-in-out;
+}
+
+.wrapper:hover {
+  box-shadow: 1px 1px 12px rgb(221, 221, 221);
 }
 
 .project-left {

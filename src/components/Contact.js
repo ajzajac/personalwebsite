@@ -42,21 +42,17 @@ export class Contact extends Component {
         return (
             <div className="contactMePage" id='contact'>
                 <h2>Contact Me</h2>
-                <ul>
+                {/* <ul>
                     <li><img src='https://ajzpersite.s3.us-east-2.amazonaws.com/mailLogo.png'></img></li>
                     <li><img src='https://ajzpersite.s3.us-east-2.amazonaws.com/linkedin-sign.png'></img></li>
                     <li><img src='https://ajzpersite.s3.us-east-2.amazonaws.com/myGithub.png'></img></li>
                     
-                </ul>
-                {/* <h2>Contact Me</h2>
-                    <div className="emailLink">
-                        <motion.ul className="contactList" variants={container} initial="hidden" animate="show" >
-                            <motion.li variants={item}><motion.img style={{cursor: 'pointer'}} whileHover={{ scale: 1.2}} whileTap={{ scale: .9}} src="https://ajzpersite.s3.us-east-2.amazonaws.com/linkedin.png" height="40%" width="40%" title='LinkedIn' onClick={this.getLinkedIn} /></motion.li>
-                            <motion.li variants={item}><motion.img style={{cursor: 'pointer'}} whileHover={{ scale: 1.2}} whileTap={{ scale: .9}} src="https://ajzpersite.s3.us-east-2.amazonaws.com/github.png" height="40%" width="40%" title='GitHub' onClick={this.goToGithub}/></motion.li>
-                            <motion.li variants={item}><motion.img style={{cursor: 'pointer'}} whileHover={{ scale: 1.2}} whileTap={{ scale: .9}} src="https://ajzpersite.s3.us-east-2.amazonaws.com/email.png" height="40%" width="50%" title='Email' onClick={this.sendEmail} /></motion.li>
+                </ul> */}
+                        <motion.ul variants={container} initial="hidden" animate="show" >
+                            <motion.li variants={item}><motion.img style={{cursor: 'pointer'}} whileHover={{ scale: 1.2}} whileTap={{ scale: .9}} src="https://ajzpersite.s3.us-east-2.amazonaws.com/linkedin-sign.png"  title='LinkedIn' onClick={this.getLinkedIn} /></motion.li>
+                            <motion.li variants={item}><motion.img style={{cursor: 'pointer'}} whileHover={{ scale: 1.2}} whileTap={{ scale: .9}} src="https://ajzpersite.s3.us-east-2.amazonaws.com/myGithub.png"  title='GitHub' onClick={this.goToGithub}/></motion.li>
+                            <motion.li variants={item}><motion.img style={{cursor: 'pointer'}} whileHover={{ scale: 1.2}} whileTap={{ scale: .9}} src="https://ajzpersite.s3.us-east-2.amazonaws.com/mailLogo.png"  title='Email' onClick={this.sendEmail} /></motion.li>
                         </motion.ul>
-                    </div> 
-                <Footer></Footer> */}
             </div>
         )
     }

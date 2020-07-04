@@ -92,6 +92,7 @@ h2 {
   color: whitesmoke;
   text-align: center;
   font-size: xx-large;
+  padding-top: 6%;
 }
 
 .container {
@@ -119,7 +120,7 @@ h2 {
 }
 
 .aboutMeText {
-  width: 60%;
+  width: 70%;
   text-align: center;
   display: inline-block;
 }
@@ -135,6 +136,7 @@ h2 {
   text-align: center;
   font-family: 'Gudea', sans-serif;
   color: white;
+  
 }
 
 .contactMePage {
@@ -207,4 +209,30 @@ h2 {
   clear: both;
   border-color: rgb(136,136,136);
   border-width: 1px;
+}
+
+.development-icons{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0 auto;
+  padding-top: 0.5em;
+  width: 70%;
+}
+
+.development-icons i{
+  width: 1.8em;
+  font-size: 4em;
+  padding: 0.3em;
+  margin: 0 auto;
+}
+
+.development-icons p {
+  margin: 0.5em auto;
+  font-size: 1em;
+}
+
+.development-icons div {
+  margin: 1.2em;
 }

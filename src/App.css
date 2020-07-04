@@ -93,6 +93,7 @@ h2 {
   text-align: center;
   font-size: xx-large;
   padding-top: 6%;
+  padding-bottom: 3%;
 }
 
 .container {
@@ -174,26 +175,61 @@ h2 {
   text-align: center;
   font-family: 'Gudea', sans-serif;
   color: whitesmoke;
-  padding-top: 20px;
   overflow: auto;
   background: rgb(30, 14, 58)
 }
 
 .wrapper {
-  background-color:rgba(0, 0, 0, .5);
-  width: 43%;
+  background-color:rgba(119, 118, 118, .4);
+  display: flex;
+  width: 70%;
   margin: auto;
-  box-shadow: 3px 3px 4px black;
+  margin-top: 2%;
+  margin-bottom: 1%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  box-shadow: 1px 1px 5px rgb(119, 118, 118);
   border-style: solid;
   border-width: 1px;
   border-radius: 15px;
-  border-color: black;
+  border-color: rgb(119, 118, 118, .4);
   overflow: auto;
+}
+
+.project-left {
+  float: left;
+  width: 30%;
+  padding-top: 1.5%;
+}
+
+.project-right {
+  float: right;
+  width: 60%;
+  padding-left: 2%;
+  text-align: left;
 }
 
 .projectList {
   overflow: auto;
   margin: auto;
+}
+
+.tech-list {
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+}
+
+.tech-list li {
+  margin-right: 3%;
+  font-weight: bold;
+}
+
+.project-right svg {
+  fill: black;
+  margin-right: 0.6em;
+  margin-top: 2px;
+  vertical-align: text-bottom;
 }
 
 .footer {
@@ -236,3 +272,4 @@ h2 {
 .development-icons div {
   margin: 1.2em;
 }
+

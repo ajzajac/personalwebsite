@@ -3,7 +3,7 @@ import React from 'react'
 export default function About() {
     return (
         <div className='aboutMe' id='about'>
-            <h2 style={{marginTop: '-1%'}}>About</h2>
+            <h2 style={{marginTop: '-1%'}}>About Me</h2>
                 <div className='aboutMeText'>
                     <p>Full-Stack Software Engineer | Web Developer</p>
                     <p>Hello world,</p>

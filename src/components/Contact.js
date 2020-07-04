@@ -41,7 +41,7 @@ export class Contact extends Component {
 
         return (
             <div className="contactMePage" id='contact'>
-                <h2>Contact Me</h2>
+                <h2 style={{marginTop: '-2%'}}>Contact Me</h2>
                 {/* <ul>
                     <li><img src='https://ajzpersite.s3.us-east-2.amazonaws.com/mailLogo.png'></img></li>
                     <li><img src='https://ajzpersite.s3.us-east-2.amazonaws.com/linkedin-sign.png'></img></li>

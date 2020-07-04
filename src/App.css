@@ -180,6 +180,7 @@ h2 {
   font-family: 'Gudea', sans-serif;
   color: whitesmoke;
   overflow: auto;
+  padding-bottom: 2%;
   background: rgb(21, 5, 49)
 }
 
@@ -202,7 +203,7 @@ h2 {
 }
 
 .wrapper:hover {
-  box-shadow: 1px 1px 12px rgb(221, 221, 221);
+  box-shadow: 0px 0px 12px rgb(221, 221, 221);
 }
 
 .project-left {
@@ -227,6 +228,7 @@ h2 {
   display: flex;
   flex-direction: row;
   text-align: left;
+  overflow: auto;
 }
 
 .tech-list li {
@@ -269,6 +271,12 @@ h2 {
   margin: 0 auto;
   padding-top: 0.5em;
   width: 70%;
+  
+}
+
+.individual-icons:hover {
+  transform: scale(1.2);
+  transition: all .2s ease-in-out;
 }
 
 .development-icons i{
@@ -276,6 +284,7 @@ h2 {
   font-size: 4em;
   padding: 0.3em;
   margin: 0 auto;
+  
 }
 
 .development-icons p {

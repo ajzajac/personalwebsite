@@ -114,7 +114,7 @@ h2 {
 }
 
 .aboutMe {
-  background: rgb(30, 14, 58);
+  background: rgb(21, 5, 49);
   text-align: center;
   font-family: 'Gudea', sans-serif;
   color: white;
@@ -133,7 +133,7 @@ h2 {
 }
 
 .skillsPage {
-  background: rgb(30, 14, 58);
+  background: rgb(21, 5, 49);
   text-align: center;
   font-family: 'Gudea', sans-serif;
   color: white;
@@ -141,42 +141,34 @@ h2 {
 }
 
 .contactMePage {
-  height: 100vh;
   width: 100%;
   margin: auto;
   position: absolute;
   font-family: 'Gudea', sans-serif;
-  background: rgb(30, 14, 58)
+  background: rgb(21, 5, 49)
 }
 
 .emailLink {
-  width: 25%;
+  width: 100%;
   margin: auto;
-  margin-bottom: 14.5%;
-  font-size: 10vh;
+  margin-bottom: 6.5%;
   text-align: center;
-  font-family: 'Gudea', sans-serif;
-  box-shadow: 3px 3px 4px black;
-  border-style: solid;
-  border-width: 1px;
-  border-radius: 15px;
-  background-color:rgba(0, 0, 0, .5);
 }
 
 .contactList {
   width: 100%;
-  margin: auto;
-  padding-top: 4%;
+  display: flex;
+  flex-direction: row;
   padding-left: 0px;
-  
 }
+
 
 .projectPage {
   text-align: center;
   font-family: 'Gudea', sans-serif;
   color: whitesmoke;
   overflow: auto;
-  background: rgb(30, 14, 58)
+  background: rgb(21, 5, 49)
 }
 
 .wrapper {
@@ -228,14 +220,14 @@ h2 {
 .project-right svg {
   fill: black;
   margin-right: 0.6em;
-  margin-top: 2px;
+  margin-top: 3px;
   vertical-align: text-bottom;
 }
 
 .footer {
   color: whitesmoke;
+  background-color: rgb(21, 5, 49);
   height: 3%;
-  margin-top: 5%;
   text-align: center;
   font-family: 'Gudea', sans-serif;
   left:0;
@@ -245,6 +237,11 @@ h2 {
   clear: both;
   border-color: rgb(136,136,136);
   border-width: 1px;
+}
+
+.footer p:first-child {
+  padding-bottom: 2%;
+  margin-bottom: -2%;
 }
 
 .development-icons{

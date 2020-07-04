@@ -1,30 +1,10 @@
 import React, { Component } from 'react'
-import { motion } from "framer-motion"
 import '../App.css'
-import HomePage from './HomePage'
 
 
 
 export class Projects extends Component {
     render() {
-
-        const container = {
-            hidden: { opacity: 0 },
-            show: {
-              opacity: 1,
-              transition: {
-                  staggerChildren: .8,
-                  ease: "easeIn", 
-                  duration: 2,
-              }
-            }
-          }
-          
-          const item = {
-            hidden: { opacity: 0 },
-            show: { opacity: 1 }
-          }
-
         return (
             <div className="projectPage" id='projectPage'>
                 <h2 style={{marginTop: '-1px'}}>Projects</h2>
@@ -84,7 +64,7 @@ export class Projects extends Component {
                             </ul>
                             <p>Created with:</p>
                             <ul className='tech-list'>
-                                <li>Ruby On Rails</li>
+                                <li>Ruby on Rails</li>
                                 <li>HTML5</li>
                                 <li>CSS3</li>
                                 <li>Bootstrap</li>

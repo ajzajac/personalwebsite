@@ -143,25 +143,27 @@ h2 {
 .contactMePage {
   width: 100%;
   margin: auto;
-  position: absolute;
-  font-family: 'Gudea', sans-serif;
-  background: rgb(21, 5, 49)
-}
-
-.emailLink {
-  width: 100%;
-  margin: auto;
-  margin-bottom: 6.5%;
+  margin-top: -2%;
   text-align: center;
+  font-family: 'Gudea', sans-serif;
+  background: rgb(21, 5, 49);
+ 
 }
 
-.contactList {
-  width: 100%;
+.contactMePage ul {
   display: flex;
   flex-direction: row;
-  padding-left: 0px;
+  width: 60%;
+  margin: auto;
+  margin-bottom: -2%;
+  padding-bottom: 5%;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
+.contactMePage a:hover {
+  
+}
 
 .projectPage {
   text-align: center;

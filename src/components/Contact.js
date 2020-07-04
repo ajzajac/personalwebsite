@@ -41,8 +41,13 @@ export class Contact extends Component {
 
         return (
             <div className="contactMePage" id='contact'>
-
-            
+                <h2>Contact Me</h2>
+                <ul>
+                    <li><img src='https://ajzpersite.s3.us-east-2.amazonaws.com/mailLogo.png'></img></li>
+                    <li><img src='https://ajzpersite.s3.us-east-2.amazonaws.com/linkedin-sign.png'></img></li>
+                    <li><img src='https://ajzpersite.s3.us-east-2.amazonaws.com/myGithub.png'></img></li>
+                    
+                </ul>
                 {/* <h2>Contact Me</h2>
                     <div className="emailLink">
                         <motion.ul className="contactList" variants={container} initial="hidden" animate="show" >

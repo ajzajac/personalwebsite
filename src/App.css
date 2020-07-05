@@ -56,6 +56,16 @@
   border-bottom: solid;
   border-width: 1px;
   border-color: rgb(136, 136, 136);
+  
+}
+
+.navBar ul {
+  justify-content: space-evenly;
+  font-size: large;
+  display: flex;
+  width: 70%;
+  margin: auto;
+  padding: 1%;
 }
 
 
@@ -79,7 +89,7 @@ a.glow, a.glow:focus {
 }
 
 a.glow:hover, a.glow:active, a.glow:focus {
-	text-shadow: 2px 2px 6px rgb(255, 255, 255);
+  text-shadow: 0px 0px 4px rgb(255, 255, 255);
 }
 
 ul {
@@ -92,7 +102,7 @@ h2 {
   color: whitesmoke;
   text-align: center;
   font-size: xx-large;
-  padding-top: 11%;
+  padding-top: 10%;
   padding-bottom: 2%;
 }
 
@@ -127,7 +137,7 @@ h2 {
 }
 
 .aboutMeLeft img {
-  height: 85%;
+  height: 90%;
   width: 80%;
   border-radius: 125px;
   padding-top: 0%;

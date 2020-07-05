@@ -1,8 +1,6 @@
 import React, { Component } from 'react'
 import '../App.css'
 
-
-
 export class Projects extends Component {
     render() {
         return (

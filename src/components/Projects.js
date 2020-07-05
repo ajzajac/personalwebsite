@@ -12,7 +12,8 @@ export class Projects extends Component {
                    
                     <div className="wrapper">
                         <div className='project-left'>
-                            <img src={Doom} alt='Doom'></img>
+                            <a href='https://www.youtube.com/watch?v=lHuf6ozKEcc' target="_blank" rel="noopener noreferrer">
+                            <img src={Doom} alt='Doom'></img></a>
                         </div>
                         <div className='project-right'>
                             <h3>Doom</h3>
@@ -33,7 +34,8 @@ export class Projects extends Component {
                     
                     <div className="wrapper">
                         <div className='project-left'>
-                        <img src={EverybodyVotes} alt='Everybody Votes'></img>    
+                            <a href='https://www.youtube.com/watch?v=anOlvDfKD58' target="_blank" rel="noopener noreferrer">
+                            <img src={EverybodyVotes} alt='Everybody Votes'></img> </a>
                         </div>
                         <div className='project-right'>
                             <h3>Everybody Votes</h3>
@@ -55,7 +57,8 @@ export class Projects extends Component {
 
                     <div className="wrapper">
                         <div className='project-left'>
-                        <img src={FriendsWhoEat} alt='Friends Who Eat'></img>    
+                            <a href='https://www.youtube.com/watch?v=cbURp5_wtaM&t=17s' target="_blank" rel="noopener noreferrer">
+                            <img src={FriendsWhoEat} alt='Friends Who Eat'></img></a>
                         </div>
                         <div className='project-right'>
                             <h3>Friends Who Eat!</h3>

@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import { motion } from 'framer-motion'
-import Footer from './Footer'
 
 const linkedInUrl = "https://www.linkedin.com/in/andrew-zajac-017672199"
 const gitHubUrl = "https://github.com/ajzajac"

@@ -105,7 +105,7 @@ h2 {
   text-align: center;
   justify-content: center;
   font-family: 'Gudea', sans-serif;
-  background: linear-gradient(to top right, rgb(30, 14, 58) 5%, rgb(3, 1, 12) 95%);
+  background: rgb(16, 2, 41);
   color: whitesmoke;
 }
 
@@ -114,15 +114,30 @@ h2 {
 }
 
 .aboutMe {
-  background: rgb(21, 5, 49);
+  background: rgb(16, 2, 41);
   text-align: center;
   font-family: 'Gudea', sans-serif;
   color: white;
+  padding: 1%;
+}
+
+.aboutMeLeft {
+  float: left;
+  width: 30%
+}
+
+.aboutMeLeft img {
+  height: 85%;
+  width: 80%;
+  border-radius: 125px;
+  padding-top: 0%;
+  margin-top: 4%;
+  box-shadow: 0px 0px 15px rgb(0, 0, 0);
 }
 
 .aboutMeText {
   width: 70%;
-  text-align: center;
+  text-align: left;
   display: inline-block;
 }
 
@@ -133,7 +148,7 @@ h2 {
 }
 
 .skillsPage {
-  background: rgb(21, 5, 49);
+  background:  rgb(16, 2, 41);
   text-align: center;
   font-family: 'Gudea', sans-serif;
   color: white;
@@ -146,7 +161,7 @@ h2 {
   margin-top: -2%;
   text-align: center;
   font-family: 'Gudea', sans-serif;
-  background: rgb(21, 5, 49);
+  background:  rgb(16, 2, 41);
  
 }
 
@@ -181,7 +196,7 @@ h2 {
   color: whitesmoke;
   overflow: auto;
   padding-bottom: 2%;
-  background: rgb(21, 5, 49)
+  background:  rgb(16, 2, 41)
 }
 
 .wrapper {
@@ -245,7 +260,7 @@ h2 {
 
 .footer {
   color: whitesmoke;
-  background-color: rgb(21, 5, 49);
+  background-color:  rgb(16, 2, 41);
   height: 3%;
   text-align: center;
   font-family: 'Gudea', sans-serif;
@@ -271,7 +286,6 @@ h2 {
   margin: 0 auto;
   padding-top: 0.5em;
   width: 70%;
-  
 }
 
 .individual-icons:hover {
@@ -284,7 +298,6 @@ h2 {
   font-size: 4em;
   padding: 0.3em;
   margin: 0 auto;
-  
 }
 
 .development-icons p {

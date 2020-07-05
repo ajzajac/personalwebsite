@@ -7,72 +7,72 @@ export default function Skills() {
             <div className='development-icons'>
                
                 <div className='individual-icons'>
-                    <i className="devicon-javascript-plain"></i>
+                    <i className="devicons devicons-javascript"></i>
                     <p>Javascript</p>
                 </div>
                 
                 <div className='individual-icons'>
-                    <i className="devicon-html5-plain"></i>
+                    <i className="devicons devicons-html5"></i>
                     <p>HTML</p>
                 </div>
 
                 <div className='individual-icons'>
-                    <i className="devicon-css3-plain"></i>
+                    <i className="devicons devicons-css3"></i>
                     <p>CSS</p>
                 </div>
 
                 <div className='individual-icons'>
-                    <i className="devicon-react-original"></i>
+                    <i className="devicon-react-plain"></i>
                     <p>React</p>
                 </div>
 
                 <div className='individual-icons'>
-                    <i className="devicon-ruby-plain"></i>
+                    <i className="devicons devicons-ruby"></i>
                     <p>Ruby</p>
                 </div>
 
                 <div className='individual-icons'>
-                    <i className="devicon-rails-plain"></i>
+                    <i className="devicons devicons-ruby_on_rails"></i>
                     <p>Rails</p>
                 </div>
 
                 <div className='individual-icons'>
-                    <i className="devicon-postgresql-plain"></i>
+                    <i className="devicons devicons-postgresql"></i>
                     <p>PostgreSQL</p>
                 </div>
 
                 <div className='individual-icons'>
-                    <i className="devicon-mysql-plain"></i>
+                    <i className="devicons devicons-mysql"></i>
                     <p>SQL</p>
                 </div>
 
                 <div className='individual-icons'>
-                    <i className="devicon-jquery-plain"></i>
+                    <i className="devicons devicons-jquery"></i>
                     <p>jQuery</p>
                 </div>
 
                 <div className='individual-icons'>
-                    <i className="devicon-git-plain"></i>
+                    <i className="devicons devicons-git"></i>
                     <p>Git</p>
                 </div>
 
                 <div className='individual-icons'>
-                    <i className="devicon-github-plain"></i>
+                    <i className="devicons devicons-github"></i>
                     <p>GitHub</p>
                 </div>
 
                 <div className='individual-icons'>
-                    <i className="devicon-express-original"></i>
-                    <p>Express</p>
+                    <i className="devicons devicons-npm"></i>
+                    <p>NPM</p>
                 </div>
 
                 <div className='individual-icons'>
-                    <i className="devicon-visualstudio-plain"></i>
+                    <i className="devicons devicons-visualstudio"></i>
                     <p>VS Code</p>
                 </div>
 
                 <div className='individual-icons'>
-                    <i className="devicon-bootstrap-plain"></i>
+                    <i className="devicons devicons-bootstrap"></i>
                     <p>Bootstrap</p>
                 </div>
             </div>

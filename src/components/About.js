@@ -6,7 +6,7 @@ export default function About() {
             <h2 style={{marginTop: '-1%'}}>About Me</h2>
                 <div className='wrapper'>
                     <div className='aboutMeLeft'>
-                        <img src='https://ajzpersite.s3.us-east-2.amazonaws.com/image.jpg'></img>
+                        <img src='https://ajzpersite.s3.us-east-2.amazonaws.com/image.jpg' alt='Andrew'></img>
                     </div>
                     
                     <div className='aboutMeText'>

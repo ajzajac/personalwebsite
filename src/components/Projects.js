@@ -11,7 +11,7 @@ export class Projects extends Component {
                    
                     <div className="wrapper">
                         <div className='project-left'>
-                            <iframe width="90%" height="90%" src="https://www.youtube.com/embed/lHuf6ozKEcc" frameborder="2" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <iframe width="90%" height="90%" src="https://www.youtube.com/embed/lHuf6ozKEcc" frameBorder="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" title='Doom' allowFullScreen></iframe>
                         </div>
                         <div className='project-right'>
                             <h3>Doom</h3>
@@ -32,7 +32,7 @@ export class Projects extends Component {
                     
                     <div className="wrapper">
                         <div className='project-left'>
-                            <iframe width="90%" height="90%" src="https://www.youtube.com/embed/anOlvDfKD58" frameborder="2" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <iframe width="90%" height="90%" src="https://www.youtube.com/embed/anOlvDfKD58" frameBorder="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" title='Everybody Votes' allowFullScreen></iframe>
                         </div>
                         <div className='project-right'>
                             <h3>Everybody Votes</h3>
@@ -54,7 +54,7 @@ export class Projects extends Component {
 
                     <div className="wrapper">
                         <div className='project-left'>
-                            <iframe width="90%" height="90%" src="https://www.youtube.com/embed/cbURp5_wtaM" frameborder="2" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <iframe width="90%" height="90%" src="https://www.youtube.com/embed/cbURp5_wtaM" frameBorder="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" title='Friends Who Eat' allowFullScreen></iframe>
                         </div>
                         <div className='project-right'>
                             <h3>Friends Who Eat!</h3>

@@ -244,6 +244,11 @@ h2 {
   float: left;
   width: 30%;
   padding-top: 1.5%;
+ 
+}
+
+.project-left div:first-child {
+  
 }
 
 .project-right {

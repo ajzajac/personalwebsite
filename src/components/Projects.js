@@ -1,5 +1,8 @@
 import React, { Component } from 'react'
 import '../App.css'
+import Doom from '../images/Doom.png'
+import EverybodyVotes from '../images/EverybodyVotes.png'
+import FriendsWhoEat from '../images/FriendsWhoEat.png'
 
 export class Projects extends Component {
     render() {
@@ -9,7 +12,7 @@ export class Projects extends Component {
                    
                     <div className="wrapper">
                         <div className='project-left'>
-                            <iframe width="90%" height="90%" src="https://www.youtube.com/embed/lHuf6ozKEcc" frameBorder="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" title='Doom' allowFullScreen></iframe>
+                            <img src={Doom} alt='Doom'></img>
                         </div>
                         <div className='project-right'>
                             <h3>Doom</h3>
@@ -30,7 +33,7 @@ export class Projects extends Component {
                     
                     <div className="wrapper">
                         <div className='project-left'>
-                            <iframe width="90%" height="90%" src="https://www.youtube.com/embed/anOlvDfKD58" frameBorder="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" title='Everybody Votes' allowFullScreen></iframe>
+                        <img src={EverybodyVotes} alt='Everybody Votes'></img>    
                         </div>
                         <div className='project-right'>
                             <h3>Everybody Votes</h3>
@@ -52,7 +55,7 @@ export class Projects extends Component {
 
                     <div className="wrapper">
                         <div className='project-left'>
-                            <iframe width="90%" height="90%" src="https://www.youtube.com/embed/cbURp5_wtaM" frameBorder="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" title='Friends Who Eat' allowFullScreen></iframe>
+                        <img src={FriendsWhoEat} alt='Friends Who Eat'></img>    
                         </div>
                         <div className='project-right'>
                             <h3>Friends Who Eat!</h3>

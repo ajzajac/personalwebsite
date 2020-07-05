@@ -1,3 +1,5 @@
+/* SCROLLS BEHAVIOR FOR WHOLE PAGE */
+
 html {
   scroll-behavior: smooth;
 }
@@ -47,6 +49,8 @@ html {
           box-sizing: border-box;
 }
 
+/* NAV BAR */
+
 .navBar {
   position: fixed;
   overflow: hidden;
@@ -77,7 +81,6 @@ html {
   transition: all 0.5s ease-in-out;
 }
 
-
 a {
   color: darkgray;
 }
@@ -101,11 +104,15 @@ a.glow:hover, a.glow:active, a.glow:focus {
   text-shadow: 0px 0px 4px rgb(255, 255, 255);
 }
 
+/* THIS APPLIES TO BOTH NAV BAR AND PROJECT CARDS */
+
 ul {
   list-style-type: none;
   text-decoration: none;
   padding-inline-start: 0px
 }
+
+/* PAGE TITLES */
 
 h2 {
   color: whitesmoke;
@@ -115,9 +122,7 @@ h2 {
   padding-bottom: 2%;
 }
 
-.container {
-  height: 100%;
-}
+/* HOME PAGE */
 
 .homeInfoCard {
   display: flex;
@@ -131,6 +136,8 @@ h2 {
 .homePageList {
   margin-bottom: 28%;
 }
+
+/* ABOUT ME */
 
 .aboutMe {
   background: rgb(16, 2, 41);
@@ -166,48 +173,47 @@ h2 {
   color: whitesmoke;
 }
 
+/* SKILLS PAGE */
+
 .skillsPage {
   background:  rgb(16, 2, 41);
   text-align: center;
   font-family: 'Gudea', sans-serif;
   color: white;
-  
 }
 
-.contactMePage {
-  width: 100%;
-  margin: auto;
-  margin-top: -2%;
-  text-align: center;
-  font-family: 'Gudea', sans-serif;
-  background:  rgb(16, 2, 41);
- 
-}
-
-.contactMePage ul {
+.development-icons{
   display: flex;
-  flex-direction: row;
-  width: 60%;
-  margin: auto;
-  margin-bottom: -2%;
-  padding-bottom: 8%;
-  justify-content: space-evenly;
   flex-wrap: wrap;
-  
+  flex-direction: row;
+  justify-content: center;
+  margin: 0 auto;
+  padding-top: 0.5em;
+  width: 70%;
 }
 
-.contactMePage img {
-  fill: white;
-  color: white;
-  height: 95%;
-  width: 80%;
-  background-color: rgb(219, 219, 219);
-  border: solid;
-  border-radius: 70px;
-  border-width: 1px;
-  border-color: whitesmoke;
-  box-shadow: 2px 2px 80px rgb(233, 233, 233);
+.individual-icons:hover {
+  transform: scale(1.2);
+  transition: all .2s ease-in-out;
 }
+
+.development-icons i{
+  width: 1.8em;
+  font-size: 4em;
+  padding: 0.3em;
+  margin: 0 auto;
+}
+
+.development-icons p {
+  margin: 0.5em auto;
+  font-size: 1em;
+}
+
+.development-icons div {
+  margin: 1.2em;
+}
+
+/* PROJECT PAGE */
 
 .projectPage {
   text-align: center;
@@ -291,6 +297,43 @@ h2 {
   vertical-align: text-bottom;
 }
 
+/* CONTACT PAGE */
+
+.contactMePage {
+  width: 100%;
+  margin: auto;
+  margin-top: -2%;
+  text-align: center;
+  font-family: 'Gudea', sans-serif;
+  background:  rgb(16, 2, 41);
+}
+
+.contactMePage ul {
+  display: flex;
+  flex-direction: row;
+  width: 60%;
+  margin: auto;
+  margin-bottom: -2%;
+  padding-bottom: 8%;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.contactMePage img {
+  fill: white;
+  color: white;
+  height: 95%;
+  width: 80%;
+  background-color: rgb(219, 219, 219);
+  border: solid;
+  border-radius: 70px;
+  border-width: 1px;
+  border-color: whitesmoke;
+  box-shadow: 2px 2px 80px rgb(233, 233, 233);
+}
+
+/* FOOTER */
+
 .footer {
   color: whitesmoke;
   background-color:  rgb(16, 2, 41);
@@ -311,34 +354,4 @@ h2 {
   margin-bottom: -2%;
 }
 
-.development-icons{
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: center;
-  margin: 0 auto;
-  padding-top: 0.5em;
-  width: 70%;
-}
-
-.individual-icons:hover {
-  transform: scale(1.2);
-  transition: all .2s ease-in-out;
-}
-
-.development-icons i{
-  width: 1.8em;
-  font-size: 4em;
-  padding: 0.3em;
-  margin: 0 auto;
-}
-
-.development-icons p {
-  margin: 0.5em auto;
-  font-size: 1em;
-}
-
-.development-icons div {
-  margin: 1.2em;
-}
 

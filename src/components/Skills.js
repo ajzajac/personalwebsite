@@ -67,6 +67,11 @@ export default function Skills() {
                 </div>
 
                 <div className='individual-icons'>
+                    <i className="devicon-visualstudio-plain"></i>
+                    <p>VS Code</p>
+                </div>
+
+                <div className='individual-icons'>
                     <i className="devicon-bootstrap-plain"></i>
                     <p>Bootstrap</p>
                 </div>

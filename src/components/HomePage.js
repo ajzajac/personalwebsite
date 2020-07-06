@@ -25,8 +25,8 @@ export class HomePage extends Component {
         return (
             <div className="homeInfoCard" id='home'>
                 <motion.ul className="homePageList" variants={container} initial="hidden" animate="show" >
-                    <motion.li variants={item} style={{fontSize: "8vh", marginTop: "30vh",}}>Andrew Zajac</motion.li>
-                    <motion.li variants={item} style={{fontSize: "2.5vh", marginTop: "5vh",}}>Software Engineer | Web Developer</motion.li>
+                    <motion.li variants={item}>Andrew Zajac</motion.li>
+                    <motion.li variants={item}>Software Engineer | Web Developer</motion.li>
                 </motion.ul>
             </div>
         )

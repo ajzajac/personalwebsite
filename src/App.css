@@ -181,7 +181,6 @@ h2 {
   animation-duration: 2s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
-  
 }
 
 .development-icons i{
@@ -364,17 +363,33 @@ h2 {
   .aboutMeText {
     font-size: 1.7vh;
     padding: 1vh;
+    margin: auto;
+    width: 95%;
+    margin-top: 2%;
+    text-align: center;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+  .aboutMe {
+    padding-top: 30%;
   }
 
   .wrapper {
     width: 90%;
-    margin-top: 5vh;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 3%;
   }
- 
+
+  .aboutMeLeft {
+    width: 80%;
+    margin: auto;
+    margin-top: 3%;
+  }
+
   .aboutMeLeft img {
-    height: 30%;
-    margin-top: 130%
+    height: 10%;
+    margin: auto;
   }
 
   /* SKILLS PAGE */
@@ -398,17 +413,31 @@ h2 {
   /* PROJECTS PAGE */
   .projectPage {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: auto;
+  }
+
+  .project-left {
+    margin: auto;
+    width: 95%;
   }
 
   .project-left img {
-    height: 40%;
-    margin-top: 60%;
+    margin-top: 3%;
+    height: 70%;
+    width: 70%;
   }
 
   .project-right {
     font-size: 1.7vh;
-    width: 69%;
+    margin: auto;
+    text-align: center;
+    width: 95%;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+  .tech-list {
+    text-align: center;
+    justify-content: center;
   }
 
   /* CONTACT ME PAGE */
